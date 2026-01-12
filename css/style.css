@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--MainFont);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f4f4f4;
+}
+:root {
+  --MainFont: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --mainColor: #06c167;
+}
