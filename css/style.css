@@ -14,3 +14,8 @@ body {
   --MainFont: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   --mainColor: #06c167;
 }
+.container {
+  max-width: 73.5625rem;
+  margin: auto;
+  overflow: hidden;
+}
