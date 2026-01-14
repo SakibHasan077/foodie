@@ -66,6 +66,101 @@ nav .navItem .homeBtn {
   display: none;
 }
 /* nav */
+/* Hero */
+.hero {
+  display: flex;
+  /* background-color: #e334; */
+  margin-top: 2rem;
+}
+.leftHero {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 11rem;
+}
+.leftHero .content h1 {
+  font-size: 3.7rem;
+  letter-spacing: 0.2rem;
+  padding-right: 4rem;
+  color: #1d1d1f;
+}
+.leftHero .content p {
+  margin-top: 1rem;
+  line-height: 142%;
+  padding-right: 6rem;
+  color: #1d1d1fbf;
+}
+.leftHero .content button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.9rem 1.5rem;
+  background-color: var(--mainColor);
+  outline: 0;
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
+.leftHero .content button span {
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+}
+.leftHero .brandLogo {
+  padding-right: 5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.leftHero .brandLogo img {
+  width: 25%;
+}
+.SmallbrandLogo {
+  display: none;
+}
+.rightHero {
+  flex-basis: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.rightHeroContainer {
+  display: flex;
+  justify-content: center;
+}
+.rightHero .imgSectrion {
+  width: 32.25rem;
+  padding-left: 2rem;
+  /* overflow: hidden; */
+}
+.mainPicture {
+  width: 100%;
+  position: relative;
+  /* display: flex; */
+  padding-left: 6rem;
+}
+.rightHero .mainPicture img {
+  width: 100%;
+}
+.dotImg {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 0;
+  width: 10.875rem;
+}
+.rating {
+  position: absolute;
+  top: 40%;
+  left: 9%;
+  width: 11.375rem;
+}
+.feedback {
+  position: absolute;
+  width: 11.375rem;
+  top: 30%;
+  right: -2%;
+}
+.mobileDeviceRatingsFeedback {
+  display: none;
+}
+/* Hero */
 /* Header Section End  */
 /* Media Query */
 @media (max-width: 1200px) {
