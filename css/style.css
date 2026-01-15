@@ -196,6 +196,47 @@ nav .navItem .homeBtn {
   font-size: 0.875rem;
 }
 /* Feature */
+/* ourBenefit */
+.ourBenefit {
+  margin-top: 7rem;
+  display: flex;
+  gap: 6rem;
+}
+.ourBenefit .imgSection {
+  width: 28.8125rem;
+  margin-left: 4rem;
+  flex-basis: 50%;
+}
+.ourBenefit .imgSection img {
+  width: 100%;
+}
+.ourBenefit .content {
+  flex-basis: 50%;
+}
+.ourBenefit .content p {
+  font-size: 15px;
+  margin-top: 4rem;
+  margin-bottom: 1.25rem;
+}
+.ourBenefit .content h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-right: 6rem;
+  letter-spacing: 0.1rem;
+}
+.ourBenefit .content ul {
+  list-style: none;
+  margin-left: 0rem;
+  margin-top: 2.5rem;
+}
+.ourBenefit .content li {
+  margin-bottom: 1rem;
+}
+.ourBenefit .content img {
+  width: 24px;
+  margin-right: 1rem;
+}
+/* ourBenefit */
 /* Media Query */
 @media (max-width: 1200px) {
   /* nav */
