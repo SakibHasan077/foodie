@@ -597,6 +597,22 @@ nav .navItem .homeBtn {
     margin: 0 0.1rem;
   }
   /* Product */
+  /* Veggie Foods */
+  .veggieFoods {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .veggieFoods h2 {
+    font-size: 2.8rem;
+  }
+  .veggieFoods button {
+    padding: 0.9rem 3rem;
+  }
+  .veggieFoods button span {
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+  }
+  /* Veggie Foods */
 }
 @media (max-width: 992px) {
   /* nav */
@@ -762,6 +778,18 @@ nav .navItem .homeBtn {
     gap: 5rem;
   }
   /* Product */
+  /* VeggieFood */
+  .veggieFoods h2 {
+    font-size: 2.6;
+  }
+  .veggieFoods button {
+    padding: 0.9rem 3rem;
+  }
+  .veggieFoods button span {
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+  }
+  /* VeggieFood */
 }
 @media (max-width: 768px) {
   /* nav */
@@ -972,6 +1000,11 @@ nav .navItem .homeBtn {
     gap: 3rem;
   }
   /* Product  */
+  /* veggieFood */
+  .veggieFoods h2 {
+    font-size: 2.4rem;
+  }
+  /* veggieFood */
 }
 @media (max-width: 530px) {
   /* nav */
@@ -1073,4 +1106,9 @@ nav .navItem .homeBtn {
     font-size: 2.2rem;
   }
   /* Product */
+  /* Veggie Food */
+  .veggieFoods h2 {
+    font-size: 2.3rem;
+  }
+  /* Veggie Food */
 }
