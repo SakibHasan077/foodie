@@ -409,6 +409,41 @@ nav .navItem .homeBtn {
   color: white;
 }
 /* Product */
+/* Veggie Foods */
+.veggieFoods {
+  min-height: 28rem;
+  background-image: url(../img/VeggieFood.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 8rem;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  text-align: center;
+}
+.veggieFoods h2 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 3rem;
+  font-weight: 600;
+  /* padding: 0 16rem; */
+}
+.veggieFoods button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.9rem 3rem;
+  background-color: var(--mainColor);
+  outline: 0;
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
+.veggieFoods button span {
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+}
+/* Veggie Foods */
 /* Media Query */
 @media (max-width: 1200px) {
   /* nav */
