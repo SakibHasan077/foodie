@@ -680,6 +680,11 @@ footer .copyright {
     margin: 0 0.5rem;
   }
   /* Veggie Foods */
+  /* Footer */
+  footer .footerContainer {
+    margin-left: 1rem;
+  }
+  /* Footer */
 }
 @media (max-width: 992px) {
   /* nav */
@@ -857,6 +862,31 @@ footer .copyright {
     margin: 0 0.5rem;
   }
   /* VeggieFood */
+  /* Footer */
+  footer .footerContainer {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    place-items: center;
+    place-content: center;
+    margin-top: 4rem;
+  }
+  footer .footerContainer .item:not(.item5) {
+    padding: 4rem 0 0;
+  }
+  footer .item1,
+  .item4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer p {
+    padding: 0 3rem;
+    text-align: center;
+  }
+  footer .copyright {
+    margin-top: 3rem;
+  }
+  /* Footer */
 }
 @media (max-width: 768px) {
   /* nav */
@@ -1072,6 +1102,32 @@ footer .copyright {
     font-size: 2.4rem;
   }
   /* veggieFood */
+  /* Footer */
+  footer .footerContainer {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    place-items: center;
+    place-content: center;
+    margin-top: 3rem;
+  }
+  footer .footerContainer .item:not(.item5) {
+    padding: 4rem 0 0;
+  }
+  footer .item1,
+  .item4 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  footer p {
+    padding: 0 8rem;
+    text-align: center;
+  }
+  footer .copyright {
+    margin-top: 3rem;
+  }
+  /* Footer */
 }
 @media (max-width: 530px) {
   /* nav */
@@ -1178,4 +1234,9 @@ footer .copyright {
     font-size: 2.3rem;
   }
   /* Veggie Food */
+  /* Footer */
+  footer p {
+    padding: 0 6rem;
+  }
+  /* Footer */
 }
