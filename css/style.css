@@ -187,6 +187,7 @@ nav .navItem .homeBtn {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .feature .featureItem h4 {
   font-size: 1.125rem;
@@ -341,6 +342,7 @@ nav .navItem .homeBtn {
   border: 0;
   color: var(--mainColor);
   padding: 0.9rem 1.5rem;
+  cursor: pointer;
 }
 /* ourFeature */
 /* Product */
@@ -402,7 +404,8 @@ nav .navItem .homeBtn {
   background-color: transparent;
   color: var(--mainColor);
   border: 2px solid var(--mainColor);
-  transition: all 0.5s linear;
+  transition: all 0.25s linear;
+  cursor: pointer;
 }
 .boxSection .item button:hover {
   background-color: var(--mainColor);
